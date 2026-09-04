@@ -245,7 +245,7 @@ class Chameleon():
         if shutter_state == 'CLOSED':
             shutter = 0
         elif shutter_state == 'OPEN':
-            shutter == 1
+            shutter = 1
         self._device.query('S={}'.format(shutter))
 
 
